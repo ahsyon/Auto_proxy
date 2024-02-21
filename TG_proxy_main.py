@@ -205,34 +205,34 @@ def write_document():
         TimeDate = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         for index in range(len(lines)):
             try:
-                if lines[index] == '`https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num`\n':
+                if lines[index] == '`https://raw.githubusercontent.com/ahsyon/Auto_proxy/main/Long_term_subscription_num`\n':
                     lines.pop(index+1)
                     lines.insert(index+1, f'`Total number of merge nodes: {length}`\n')
-                if lines[index] == '`https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1`\n':
+                if lines[index] == '`https://raw.githubusercontent.com/ahsyon/Auto_proxy/main/Long_term_subscription1`\n':
                     lines.pop(index+1)
                     lines.insert(index+1, f'`Total number of merge nodes: {step}`\n')
-                if lines[index] == '`https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2`\n': # 目标行内容
+                if lines[index] == '`https://raw.githubusercontent.com/ahsyon/Auto_proxy/main/Long_term_subscription2`\n': # 目标行内容
                     lines.pop(index+1)
                     lines.insert(index+1, f'`Total number of merge nodes: {step}`\n')
-                if lines[index] == '`https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3`\n': # 目标行内容
+                if lines[index] == '`https://raw.githubusercontent.com/ahsyon/Auto_proxy/main/Long_term_subscription3`\n': # 目标行内容
                     lines.pop(index+1)
                     lines.insert(index+1, f'`Total number of merge nodes: {step}`\n')
-                if lines[index] == '`https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4`\n': # 目标行内容
+                if lines[index] == '`https://raw.githubusercontent.com/ahsyon/Auto_proxy/main/Long_term_subscription4`\n': # 目标行内容
                     lines.pop(index+1)
                     lines.insert(index+1, f'`Total number of merge nodes: {step}`\n')
-                if lines[index] == '`https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5`\n': # 目标行内容
+                if lines[index] == '`https://raw.githubusercontent.com/ahsyon/Auto_proxy/main/Long_term_subscription5`\n': # 目标行内容
                     lines.pop(index+1)
                     lines.insert(index+1, f'`Total number of merge nodes: {step}`\n')
-                if lines[index] == '`https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6`\n': # 目标行内容
+                if lines[index] == '`https://raw.githubusercontent.com/ahsyon/Auto_proxy/main/Long_term_subscription6`\n': # 目标行内容
                     lines.pop(index+1)
                     lines.insert(index+1, f'`Total number of merge nodes: {step}`\n')
-                if lines[index] == '`https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7`\n': # 目标行内容
+                if lines[index] == '`https://raw.githubusercontent.com/ahsyon/Auto_proxy/main/Long_term_subscription7`\n': # 目标行内容
                     lines.pop(index+1)
                     lines.insert(index+1, f'`Total number of merge nodes: {step}`\n')
-                if lines[index] == '`https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8`\n': # 目标行内容
+                if lines[index] == '`https://raw.githubusercontent.com/ahsyon/Auto_proxy/main/Long_term_subscription8`\n': # 目标行内容
                     lines.pop(index+1)
                     lines.insert(index+1, f'`Total number of merge nodes: {length-step*7}`\n')
-                if lines[index] == '`https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3.yaml`\n': # 目标行内容
+                if lines[index] == '`https://raw.githubusercontent.com/ahsyon/Auto_proxy/main/Long_term_subscription3.yaml`\n': # 目标行内容
                     lines.pop(index+4)
                     lines.pop(index+4)
                     lines.insert(index+4, f'Updata：`{TimeDate}`\n')
@@ -277,7 +277,7 @@ def write_document():
 #获取clash订阅
 def get_yaml():
     print("开始获取clsah订阅")
-    urls = ["https://api.dler.io//sub?target=clash&url=https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_try&insert=false&config=https://raw.githubusercontent.com/w1770946466/fetchProxy/main/config/provider/rxconfig.ini&emoji=true","https://api.dler.io//sub?target=clash&url=https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2&insert=false&config=https://raw.githubusercontent.com/w1770946466/fetchProxy/main/config/provider/rxconfig.ini&emoji=true", "https://api.dler.io//sub?target=clash&url=https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3&insert=false&config=https://raw.githubusercontent.com/w1770946466/fetchProxy/main/config/provider/rxconfig.ini&emoji=true"]
+    urls = ["https://api.dler.io//sub?target=clash&url=https://raw.githubusercontent.com/ahsyon/Auto_proxy/main/Long_term_subscription_try&insert=false&config=https://raw.githubusercontent.com/w1770946466/fetchProxy/main/config/provider/rxconfig.ini&emoji=true","https://api.dler.io//sub?target=clash&url=https://raw.githubusercontent.com/ahsyon/Auto_proxy/main/Long_term_subscription2&insert=false&config=https://raw.githubusercontent.com/w1770946466/fetchProxy/main/config/provider/rxconfig.ini&emoji=true", "https://api.dler.io//sub?target=clash&url=https://raw.githubusercontent.com/ahsyon/Auto_proxy/main/Long_term_subscription3&insert=false&config=https://raw.githubusercontent.com/w1770946466/fetchProxy/main/config/provider/rxconfig.ini&emoji=true"]
     n = 1
     for i in urls:
         response = requests.get(i)
