@@ -12,7 +12,7 @@ def get_sub_url():
         'https://fastestcloud.xyz',
         'https://user.bafang.vip',
         'https://cloud.hhygj.xyz',
-        'https://feiniaoyun.top',
+        'https://feiniaoyun.xyz',
         'https://www.dgycom.com',
     )
     times = 1
